@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+#Main-Content{
+    width: 100%;
+    height: 900px;
+
+    display: grid;
+    place-items: center;
+}
+
+.wrapper{
+    height: 100%;
+    width: 1000px;
+    border: 1px solid red;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+form{
+    width: 800px;
+    font-family: sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
